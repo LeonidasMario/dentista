@@ -27,6 +27,8 @@ include_once('components/conect.php');
 
 <?php include_once('components/user_header.php'); ?>
 
+<?php include_once('components/user_footer.php'); ?>
+
 <!--sweetalert cdn link-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 
