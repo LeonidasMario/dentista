@@ -399,6 +399,72 @@ input[type ='submit']:hover{
 .header .navbar a:hover{
     color:var(--pink-color);
 }
+
+footer{
+    background-image: url('../images/footer.jpg');
+    background-size: cover;
+    padding: 300px 0 0;
+    width: 100%;
+}
+footer img{
+    width: 200px;
+}
+footer .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 15rem);
+    align-items: center;
+    justify-content: center;
+}
+footer .content .box{
+    margin: 1rem;
+    line-height: 1.7;
+    color: #000;
+}
+footer .content .box .btn{
+    text-align: center;
+    padding: .5rem;
+}
+footer .content .box h3{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+footer .content .box a{
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+}
+footer .content .box a:hover{
+    color: var(--pink-color);
+}
+footer .content .box i{
+    margin-right: .5rem;
+}
+footer .content .box p{
+    line-height: 1.5;
+}
+footer .content .box .icons{
+    margin-top: 1rem;
+}
+footer .content .box .icons i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--pink-opacity);
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    cursor: pointer;
+}
+footer .bottom{
+    margin-top:2rem;
+    bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+
+}
 /*------------------tela-------------------------*/
 @media (max-width:991px) {
     .header .navbar{

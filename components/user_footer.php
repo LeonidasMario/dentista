@@ -34,8 +34,8 @@
             <div  class="icons">
                 <i class="bx bxl-facebook"></i>
                 <i class="bx bxl-twitter"></i>
-                <i class="bx bxl-intagram"></i>
-                <i class="bx bxs-linkedin"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-linkedin"></i>
             </div>
         </div>
     </div>
