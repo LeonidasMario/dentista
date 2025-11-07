@@ -124,6 +124,90 @@ if (isset($_COOKIE['user_id'])) {
     </ul>
 </div>
 <!-- home slide aqui-->
+ <div class="about-us">
+    <div class="box-container">
+        <div class="box">
+            <div class="container">
+                <div class="card">
+                    <img src="images/ab-icon.png">
+                    <h2>facíl acesso</h2>
+                    <p>Consiga uma avalição em poucos clicks</p>
+                </div>
+                <div class="card">
+                    <img src="images/ab-icon0.png">
+                    <h2>facíl acesso</h2>
+                    <p>Consiga uma avalição em poucos clicks</p>
+                </div>
+                <div class="card">
+                    <img src="images/ab-icon1.png">
+                    <h2>facíl acesso</h2>
+                    <p>Consiga uma avalição em poucos clicks</p>
+                </div>
+                <div class="card">
+                    <img src="images/ab-icon2.png">
+                    <h2>facíl acesso</h2>
+                    <p>Consiga uma avalição em poucos clicks</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <h1>Sobre nossa clínica</h1>
+           <p>A Uni-Sorriso é especializada em odontologia moderna, dedicada a proporcionar experiências personalizadas e diagnósticos precisos. Nossa equipe de doutores oferece proteção completa e serviço de excelência, colocando o bem-estar do paciente em primeiro lugar.</p>
+            <div class="box-card">
+                <div class="detail">
+                    <img src="images/about-us.jpg" >
+                    <h2>Dr. Richard Smith</h2>
+                    <span>Head Doctor, Orthodontist</span>
+                     <p>Eu sou um Dr. dedicado a como especialista de 20 de experiência treinado em diagnóstico
+                    completo para identificar necessidades e proporcionar tratamentos eficazes.
+                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <div class="relax-container">
+    <div class="detail">
+        <h1>Relaxa... o seu dentista  sabe sempre</h1>
+        <div class="box">
+            <div class="img-box">
+                <img src="images/icon (8).png" alt="">
+            </div>
+            <div>
+                <h2>Nunca esqueça da sua higiene </h2>
+                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança e conforto de todos os pacientes durante cada atendimento.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="img-box">
+                <img src="images/icon (9).png" alt="">
+            </div>
+            <div>
+                <h2> Não esqueça de da sua higiene </h2>
+                 <p>Duas mãos limpas ajudam a proteger sua saúde e de quem você ama.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="img-box">
+                <img src="images/icon (10).png" alt="">
+            </div>
+            <div>
+                <h2> visite  seu dentista em in 6 meses</h2>
+                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança e conforto de todos os pacientes durante cada atendimento.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="img-box">
+                <img src="images/icon (8).png" alt="">
+            </div>
+            <div>
+                <h2>Nunca esqueça da sua higiene </h2>
+                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança e conforto de todos os pacientes durante cada atendimento.</p>
+            </div>
+        </div>
+    </div>
+ </div>
 
 <?php include_once('components/user_footer.php'); ?>
 
