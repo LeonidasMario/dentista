@@ -176,7 +176,7 @@ if (isset($_COOKIE['user_id'])) {
             </div>
             <div>
                 <h2>Nunca esqueça da sua higiene </h2>
-                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança e conforto de todos os pacientes durante cada atendimento.</p>
+                 <p>Garantimos rigorosa higiene e cuidados constantes para seguranç.</p>
             </div>
         </div>
         <div class="box">
@@ -194,7 +194,7 @@ if (isset($_COOKIE['user_id'])) {
             </div>
             <div>
                 <h2> visite  seu dentista em in 6 meses</h2>
-                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança e conforto de todos os pacientes durante cada atendimento.</p>
+                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança.</p>
             </div>
         </div>
         <div class="box">
@@ -203,7 +203,7 @@ if (isset($_COOKIE['user_id'])) {
             </div>
             <div>
                 <h2>Nunca esqueça da sua higiene </h2>
-                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança e conforto de todos os pacientes durante cada atendimento.</p>
+                 <p>Garantimos rigorosa higiene e cuidados constantes para segurança.</p>
             </div>
         </div>
     </div>

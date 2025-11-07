@@ -164,7 +164,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `image`) VALUES
-('SXOR4znfXsGM83Gzfhpf', 'john', 'johndoe@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'smirking-young-man.webp');
+('SXOR4znfXsGM83Gzfhpf', 'john', 'johndoe@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'jGPfkM8T4F34LrPexcCt.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

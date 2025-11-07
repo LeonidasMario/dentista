@@ -758,17 +758,12 @@ footer .bottom{
     text-transform: capitalize;
     color: var(--main-color); 
 }
-.box,
-.container,
-.card,
-.box-container .box,
-.about-us .box-container .box,
-.relax-container .detail .box,
-.kids .box-card .card,
-.service .box,
-.form-container.form {
+/*conteinainer dentista */
+.kids .box,
+.kids .box-container .box,
+.kids .box-card .card {
     background-color: transparent !important;
-    border: none !important;      /* removendo borda se quiser */
-    box-shadow: none !important;  /* removendo sombra se quiser */
-    /* backdrop-filter: none; */  /* remover borrado se quiser */
+    border: none !important;
+    box-shadow: none !important;
 }
+
