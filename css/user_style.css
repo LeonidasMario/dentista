@@ -413,7 +413,7 @@ footer .content{
     display: grid;
     grid-template-columns: repeat(auto-fit, 15rem);
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 footer .content .box{
     margin: 1rem;
@@ -428,10 +428,11 @@ footer .content .box h3{
     font-size: 1.5rem;
     text-transform: capitalize;
     margin-bottom: .5rem;
+    color: #fff;
 }
 footer .content .box a{
     font-size: 16px;
-    color: #000;
+    color: #fff;
     text-transform: capitalize;
 }
 footer .content .box a:hover{
@@ -442,6 +443,7 @@ footer .content .box i{
 }
 footer .content .box p{
     line-height: 1.5;
+    color: #fff;
 }
 footer .content .box .icons{
     margin-top: 1rem;
@@ -459,12 +461,15 @@ footer .content .box .icons i{
 }
 footer .bottom{
     margin-top:2rem;
-    bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
     text-align: center;
     line-height: 2;
     color: #fff;
+    padding: 2rem 0;
+    font-size: 1.3rem;
 
 }
+
 /*------------------tela-------------------------*/
 @media (max-width:991px) {
     .header .navbar{
@@ -497,3 +502,101 @@ footer .bottom{
         display: block;
     }
 }
+.slider-container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+.slider-container .slideBox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    background-position: center;
+    background-size: cover;
+}
+.slider-container .slideBox.active{
+    opacity: 1;
+}
+.slider-container .slideBox:nth-child(1){
+    background-image: url('../images/hero-1.jpg');
+}
+.slider-container .slideBox:nth-child(2){
+    background-image: url('../images/hero-2.jpg');
+}
+.slider-container .slideBox:nth-child(3){
+    background-image: url('../images/hero-3.jpg');
+
+}
+.slider-container .textBox{
+    position: absolute;
+    top:18%;
+    left: 5%;
+}
+.slider-container .textBox h1{
+    font-size: 2.5vw;
+    color: var(--main-color);
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+.slider-container .textBox span{
+    color: var(--pink-color);
+    font-size: 1.5vw;
+    text-transform: capitalize;
+}
+.slider-container .card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.slider-container .card .box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.slider-container .card img{
+    width: 70px;
+    margin-right: 1rem;
+}
+.slider-container .card h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--main-color)
+}
+.slider-container .card p{
+    color: #555;
+    font-size: 18px;
+    margin-top: .5rem;
+}
+.slider-container .controls{
+    position: absolute;
+   top: 30%;          /* distância do topo - ajuste conforme preferir */
+    right: 0;        /* distância da direita */
+   
+}
+.slider-container .controls li{
+    position: relative;
+   width: 60px;
+    height: 60px;
+    list-style: none;
+    cursor: pointer;
+    background-color: var(--white-alfa-25);
+     background-color: var(--white-alfa-25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: .2rem;
+   color: var(--main-color);
+}
+.slider-container .controls li i{
+    font-size: 2rem;
+}
+.slider-container .flex-btn{
+    justify-content: flex-start;
+}
+

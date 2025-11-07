@@ -1,14 +1,11 @@
 <?php
 include_once('components/conect.php');
 
- if (isset($_COOKIE['user_id'] )){
+if (isset($_COOKIE['user_id'])) {
     $user_id = $_COOKIE['user_id'];
-
-}else{
-    $user_id='';
+} else {
+    $user_id = '';
 }
-
-
 ?>
 
 <!doctype html>
@@ -26,6 +23,107 @@ include_once('components/conect.php');
 <body>
 
 <?php include_once('components/user_header.php'); ?>
+
+<!-- home slide aqui-->
+<div class="slider-container">
+    <div class="slide">
+
+        <!-- Slide 1 -->
+        <div class="slideBox active">
+            <div class="textBox">
+                <span>Comprometidos com a excelência</span>
+                <h1>personalizados e <br> confortáveis</h1>
+                <div class="card">
+                    <div class="box">
+                        <div><img src="images/icon (11).png" alt=""></div>
+                        <div>
+                            <h2>Projeção completa</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div><img src="images/icon (12).png" alt=""></div>
+                        <div>
+                            <h2>Completa serviço completo</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="service.php" class="btn">ver serviço</a>
+                    <a href="service.php" class="btn">livro de depoimentos</a>
+                </div>
+            </div>
+        </div>
+        <!-- Fim Slide 1 -->
+
+        <!-- Slide 2 -->
+        <div class="slideBox">
+            <div class="textBox">
+                <span>Comprometidos com a excelência</span>
+                <h1>personalizados e <br> comfortáveis</h1>
+                <div class="card">
+                    <div class="box">
+                        <div><img src="images/icon (4).png" alt=""></div>
+                        <div>
+                            <h2>Projeção completa</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisi</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div><img src="images/icon (5).png" alt=""></div>
+                        <div>
+                            <h2>Completa serviço completo</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="service.php" class="btn">ver serviço</a>
+                    <a href="service.php" class="btn">livro de depoimentos</a>
+                </div>
+            </div>
+        </div>
+        <!-- Fim Slide 2 -->
+
+        <!-- Slide 3 -->
+        <div class="slideBox">
+            <div class="textBox">
+                <span>Comprometidos com a excelência</span>
+                <h1>personalizados e <br> comfortáveis</h1>
+                <div class="card">
+                    <div class="box">
+                        <div><img src="images/icon (1).png" alt=""></div>
+                        <div>
+                            <h2>Projeção completa</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div><img src="images/icon (2).png" alt=""></div>
+                        <div>
+                            <h2>Completa serviço completo</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-btn">
+                    <a href="service.php" class="btn">ver serviço</a>
+                    <a href="service.php" class="btn">livro de depoimentos</a>
+                </div>
+            </div>
+        </div>
+        <!-- Fim Slide 3 -->
+
+    </div>
+
+    <!-- CONTROLES DAS SETAS NO FINAL DO CONTAINER -->
+    <ul class="controls">
+        <li onclick="nextSlide();" class="next"><i class="bx bx-right-arrow-alt"></i></li>
+        <li onclick="prevSlide();" class="prev"><i class="bx bx-left-arrow-alt"></i></li>
+    </ul>
+</div>
+<!-- home slide aqui-->
 
 <?php include_once('components/user_footer.php'); ?>
 
