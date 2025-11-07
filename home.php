@@ -303,7 +303,19 @@ if (isset($_COOKIE['user_id'])) {
 
 
 
+<div class="care-container">
+    <div class="detail">
+        <h1>tome cuidado dos seus dentes & boca</h1>
+        <p>Cuidar da saúde bucal é essencial para manter dentes fortes, 
+        evitar cáries e garantir um sorriso bonito e saudável por toda a vida.</p>
+        <p><i class="bx bx-circle"></i> Lembre-se de escovar seus dentes após as refeições.</p>
+        <p><i class="bx bx-circle"></i> Lembre-se de escovar seus dentes após as refeições.</p>
+        <p><i class="bx bx-circle"></i> Lembre-se de escovar seus dentes após as refeições.</p>
+        <p><i class="bx bx-circle"></i> Lembre-se de escovar seus dentes após as refeições.</p>
+        <p><i class="bx bx-circle"></i> Lembre-se de escovar seus dentes após as refeições.</p>
 
+    </div>
+</div>
 
 
 

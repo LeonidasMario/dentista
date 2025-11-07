@@ -750,7 +750,7 @@ footer .bottom{
     align-items: center;
     line-height: 1.5;
     background-color: #fff;
-    padding: 2rem 1fr;
+    padding: 2rem 1rem;
 }
 .service .box-container .box h1{
     font-weight: 400;
@@ -758,6 +758,51 @@ footer .bottom{
     text-transform: capitalize;
     color: var(--main-color); 
 }
+.service .box-container .box p{
+        font-size: 1.1rem;
+        color:#555;
+}
+.service .box-container .box img{
+    width: 80px;
+    margin-right: 2rem;
+}
+.care-container{
+    padding: 6%;
+     background-image: url('../images/tooth-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.care-container h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.care-container p{
+    font-size: 1.2rem;
+    color: gray;
+    line-height: 2;
+}
+.care-container i{
+    color: #0e54ae;
+    margin-right: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*conteinainer dentista */
 .kids .box,
 .kids .box-container .box,
