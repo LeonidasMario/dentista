@@ -18,11 +18,7 @@
     --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.40);
  }
  body{
-   background-image: url('../images/bg0.jpg');
-    background-repeat: no-repeat;
-    background-position: center  center;
-    background-size: cover;
-    background-attachment: fixed;
+   background-color: #f5f5f5;
 
  }
  html{
@@ -701,4 +697,78 @@ footer .bottom{
 .relax-container .detail .img-box img{
     width: 80%;
     object-fit: contain;
+}
+
+.kids .box-container .img{
+    width: 100%;
+}
+.kids .box-container .heading{
+    text-align: left;
+    place-content: 6%;
+}
+.kids .box-container .heading h1{
+    font-size: 3rem;
+    color: var(--main-color);
+}
+.kids .box-container p{
+        font-size: 1.2rem;
+        color:gray;
+        line-height: 1.5;
+}
+.kids .box-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem, 1fr));
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.kids .box-card{
+    text-transform: center;
+    margin: 1rem .5rem;
+}
+.kids .box-card .card h2{
+    text-transform: capitalize;
+    font-size: 500;
+    color: var(--main-color);
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.kids .box-card .card img{
+    width: 80px;
+}
+.service{
+    background-image: url('../images/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 8% 4%;
+}
+.service .box-container{
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+}
+.service .box-container .box{
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    background-color: #fff;
+    padding: 2rem 1fr;
+}
+.service .box-container .box h1{
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: var(--main-color); 
+}
+.box,
+.container,
+.card,
+.box-container .box,
+.about-us .box-container .box,
+.relax-container .detail .box,
+.kids .box-card .card,
+.service .box,
+.form-container.form {
+    background-color: transparent !important;
+    border: none !important;      /* removendo borda se quiser */
+    box-shadow: none !important;  /* removendo sombra se quiser */
+    /* backdrop-filter: none; */  /* remover borrado se quiser */
 }

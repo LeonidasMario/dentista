@@ -208,6 +208,119 @@ if (isset($_COOKIE['user_id'])) {
         </div>
     </div>
  </div>
+          
+  <div class="kids">
+    <div class="box-container">
+        <div class="box">
+            <div class="heading">
+                <h1>Tratamento oral para crianças</h1>
+                <p>Cuidados especiais para garantir a saúde bucal dos pequenos, com atendimento humanizado, prevenção e
+                     acompanhamento desde os primeiros anos.</p>
+            </div>
+            <div class="box-card">
+                <div class="card">
+                    <img src="images/dental.png" >
+                    <h2>Escovar os dentes</h2>
+                    <p>Manter uma rotina de escovação diária é fundamental para prevenir cáries.</p>
+                </div>
+                <div class="card">
+                    <img src="images/nutrition.png" >
+                    <h2>Nutrição</h2>
+                    <p>Manter uma rotina de escovação diária é fundamental para prevenir cáries.</p>
+                </div>
+                <div class="card">
+                    <img src="images/ab-icon2.png" >
+                    <h2>Analise</h2>
+                    <p>Manter uma rotina de escovação diária é fundamental para prevenir cáries.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/kid.png" class ="img">
+        </div>
+    </div>
+  </div>
+    <div class="service">
+        <div class="box-container">
+            <div class="box">
+                <div><img src="images/contact-icon (4).png" ></div>
+                <div class="detail">
+                    <h1>odontologia geral</h1>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div><img src="images/service-icon2.png" ></div>
+                <div class="detail">
+                    <h1>enchimento de detal</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+             <div class="box">
+                <div><img src="images/service-icon.png" ></div>
+                <div class="detail">
+                    <h1>cirurgia dental</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        <div class="box">
+                <div><img src="images/service-icon0.png" ></div>
+                <div class="detail">
+                    <h1>alinhamento dental</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div><img src="images/service-icon5.png" ></div>
+                <div class="detail">
+                    <h1>branqueamento dental</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div><img src="images/service-icon1.png" ></div>
+                <div class="detail">
+                    <h1>proteção dental</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div><img src="images/service-icon4.png" ></div>
+                <div class="detail">
+                    <h1>aparelho dental</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div><img src="images/service-icon3.png" ></div>
+                <div class="detail">
+                    <h1>prótese</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php include_once('components/user_footer.php'); ?>
 
