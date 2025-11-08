@@ -1228,3 +1228,48 @@ progress .overlay{
     width: 90%;
     margin-bottom: -1rem;
 }
+.services{
+    background-image: url('../images/bg.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding: 6%;
+}
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 3 colunas automáticas */
+    gap: 2rem;
+    justify-items: center;
+}
+.services .box-container .box {
+    margin-top: 4rem;
+    min-height: 320px;
+}
+.services .box-container .box {
+    width: 250px;         /* largura fixa para todos */
+    height: 250px;        /* altura fixa igual à largura: quadrado perfeito */
+    background-color: var(--white-alfa-25);
+    border-radius: .5rem;
+    border: 3px solid var(--white-alfa-40);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* centraliza verticalmente */
+    margin: 0;              /* não precisa de margin-top por conta do gap */
+    text-align: center;
+    overflow: hidden;       /* evita que o conteúdo "estoure" o quadrado */
+}
+.services .box-container .box img{
+    width: 80px;
+
+}
+.services .box-container .box h4{
+    text-transform: capitalize;
+    font-size: 25px;
+    color:var(--main-color);
+    margin: .5rem 0;
+}
