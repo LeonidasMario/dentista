@@ -28,3 +28,18 @@ let  searchForm = document.querySelector('.search-form');
         i = (i - 1 + slides.length) % slides.length;
         slides[i].classList.add('active');
     }
+
+   let slide = document.querySelectorAll('.testimonial-item');
+let index = 0;
+
+function rightSlide(){
+    slide[index].classList.remove('active');
+    index = (index + 1) % slide.length;
+    slide[index].classList.add('active');
+}
+
+function leftSlide(){
+    slide[index].classList.remove('active');
+    index = (index - 1 + slide.length) % slide.length;
+    slide[index].classList.add('active');
+}

@@ -106,6 +106,7 @@ if (isset($_COOKIE['user_id'])) {
                 rendimento escolar e produtividade. Ações de prevenção podem reduzir em até 90% os casos de cáries e infecções bucais.</p>
         </div>
         <div class="container">
+            <!--barra de progresso incio-->
             <div class="progress-bar">
                 <div class="progress">
                     <span class="title timer" data-form="0" data-to="99" data-speed="1800">
@@ -114,9 +115,115 @@ if (isset($_COOKIE['user_id'])) {
                         <div class="left"></div>
                         <div class="right"></div>
                 </div>
+                <h1>99%</h1>
+                <h4>satisfação do cliente</h4>
             </div>
+            <!--barra de progresso incio-->
+            <div class="progress-bar">
+                <div class="progress">
+                    <span class="title timer" data-form="0" data-to="70" data-speed="1500">
+                        <img src="images/icon (7).png"></span>
+                        <div class="overlay"></div>
+                        <div class="left"></div>
+                        <div class="right"></div>
+                </div>
+                <h1>97%</h1>
+                <h4>intervensão com sucesso</h4>
+            </div>
+            <!--barra de progresso incio-->
+            <div class="progress-bar">
+                <div class="progress">
+                    <span class="title timer" data-form="0" data-to="100" data-speed="1500">
+                        <img src="images/counter (3).png"></span>
+                        <div class="overlay"></div>
+                        <div class="left"></div>
+                        <div class="right"></div>
+                </div>
+                <h1>100%</h1>
+                <h4>Feliz com a equipe</h4>
+            </div>
+            <!--barra de progresso incio-->
+            <div class="progress-bar">
+                <div class="progress">
+                    <span class="title timer" data-form="0" data-to="85" data-speed="1800">
+                        <img src="images/counter (2).png"></span>
+                        <div class="overlay"></div>
+                        <div class="left"></div>
+                        <div class="right"></div>
+                </div>
+                <h1>97%</h1>
+                <h4>recuperação rápida</h4>
+            </div>
+            <!--barra de progresso incio-->
         </div>
      </div>
+
+
+        <div class="testimonial-container">
+            <div class="heading">
+                <span>Clíentes com</span>
+                <h1>Razão para sorrir</h1>
+            </div>
+            <div class="container">
+                <div class="testimonial-item active">
+                    <i class="bx bxs-quote-right" id ="quote"></i>
+                    <img src="images/ima1.jpeg" >
+                    <h1>john smith</h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sequi quo expedita eveniet laborum officiis accusantium,
+                     nesciunt consequatur eos vitae natus eum tempora possimus, 
+                     fuga ea quidem veritatis, perferendis alias ducimus?
+                </div>
+                 <div class="testimonial-item ">
+                    <i class="bx bxs-quote-right" id ="quote"></i>
+                    <img src="images/ima2.jpeg" >
+                    <h1>jAIJAVA PEE</h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sequi quo expedita eveniet laborum officiis accusantium,
+                     nesciunt consequatur eos vitae natus eum tempora possimus, 
+                     fuga ea quidem veritatis, perferendis alias ducimus?
+                </div>
+                <div class="testimonial-item">
+                    <i class="bx bxs-quote-right" id ="quote"></i>
+                    <img src="images/ima3.avif" >
+                    <h1>Selena Arsi</h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sequi quo expedita eveniet laborum officiis accusantium,
+                     nesciunt consequatur eos vitae natus eum tempora possimus, 
+                     fuga ea quidem veritatis, perferendis alias ducimus?
+                </div>
+                <div class="testimonial-item">
+                    <i class="bx bxs-quote-right" id ="quote"></i>
+                    <img src="images/ima4.webp" >
+                    <h1>Alweena Arsi</h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sequi quo expedita eveniet laborum officiis accusantium,
+                     nesciunt consequatur eos vitae natus eum tempora possimus, 
+                     fuga ea quidem veritatis, perferendis alias ducimus?
+                </div>
+                <div class="left-arrow" onclick="leftSlide()"><i class="bx bx-left-arrow-alt"></i></div>
+                <div class="right-arrow" onclick="rightSlide()"><i class="bx bx-right-arrow-alt"></i></div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php include_once('components/user_footer.php'); ?>
 
