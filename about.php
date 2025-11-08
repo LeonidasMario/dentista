@@ -1,0 +1,131 @@
+<?php
+include_once('components/conect.php');
+
+if (isset($_COOKIE['user_id'])) {
+    $user_id = $_COOKIE['user_id'];
+} else {
+    $user_id = '';
+}
+?>
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Sorriso</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/user_style.css?v=<?php echo time(); ?>">
+</head>
+<body>
+
+<?php include_once('components/user_header.php'); ?>
+
+ <div class="banner">
+    <div class="detail">
+        <h1>Sobre-nós</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate natus quidem, <br>cumque esse officiis quo eos doloremque debitis mollitia aliquam consequatur eaque?<br> Molestias, 
+            delectus enim minima recusandae laboriosam libero ipsa?</p>
+            <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt">Sobre-nós</i></span>
+    </div>
+ </div>
+     
+ <div class="about">
+    <div class="box-container">
+        <div class="box">
+            <span>Mais sober a clínica</span>
+            <h2>Especialista em cuidado bucal</h2>
+        <p>Oferecemos atendimento personalizado para todas as idades, com profissionais qualificados, estrutura moderna e foco em prevenção, tratamento e bem-estar de nossos pacientes.</p>
+        <p>Nossa missão é proporcionar experiências positivas em cada consulta, promovendo a confiança e o cuidado constante com a saúde bucal dos nossos pacientes.</p>
+    </div>
+    <div class="box">
+        <img src="images/about.avif" >
+    </div>
+    </div>
+ </div>
+    <div class="event">
+        <div class="heading">
+            <h1>O <span>Dentes & e controle de rotina</span> limpeza
+            </h1><p>inovção de ideias o odontologia</p>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/about.png" alt="">
+            </div>
+            <div class="box">
+                <h2>pesquisa atual sobre saúde bucal</h2>
+                <p>Estudos recentes mostram que a saúde bucal está diretamente ligada ao bem-estar geral, <br>sendo essencial manter bons hábitos de higiene,
+                 realizar visitas regulares ao dentista e adotar uma alimentação equilibrada para prevenir doenças.</p>
+            </div>
+        </div>
+        <div class="box-container">
+           
+            <div class="box">
+                <h2>hygine oral - circulo da lavagem de boca</h2>
+                <p>Estudos recentes mostram que a saúde bucal está diretamente ligada ao bem-estar geral, <br>sendo essencial manter bons hábitos de higiene,
+                 realizar visitas regulares ao dentista e adotar uma alimentação equilibrada para prevenir doenças.</p>
+            </div>
+             <div class="box">
+                <img src="images/about0.png" alt="">
+            </div>
+        </div>
+    </div>
+     <div class="role">
+        <div class="box-container">
+            <div class="box">
+                <h1>A roda dos implantes dentais</h1>
+                <p>Os implantes dentários revolucionaram o tratamento odontológico,<br>
+                 permitindo a reposição de dentes perdidos com eficiência, conforto e estética natural.<br>
+                  São indicados para quem busca recuperar o sorriso e a funcionalidade da mastigação de forma segura e duradoura.</p>
+                </div>
+        <div class="box">
+                <img src="images/about1.jpg" alt="">
+            </div>
+        </div>
+            <div class="box-container">
+                 <div class="box">
+                <img src="images/about2.jpg" alt="">
+            </div>
+            <div class="box">
+                <h1>implantes na clínica</h1>
+                <p>Os implantes dentários revolucionaram o tratamento odontológico,<br>
+                 permitindo a reposição de dentes perdidos com eficiência, conforto e estética natural.<br>
+                  São indicados para quem busca recuperar o sorriso e a funcionalidade da mastigação de forma segura e duradoura.</p>
+                </div>
+        </div>
+     </div>
+     <div class="skill-container">
+        <div class="heading">
+            <span>Fora dos serviços dentais</span>
+            <h1>em números</h1>
+            <p>Mais de 3 bilhões de pessoas no mundo apresentam algum tipo de doença bucal. <br>
+                O impacto da saúde bucal vai além do consultório, influenciando autoestima, 
+                rendimento escolar e produtividade. Ações de prevenção podem reduzir em até 90% os casos de cáries e infecções bucais.</p>
+        </div>
+        <div class="container">
+            <div class="progress-bar">
+                <div class="progress">
+                    <span class="title timer" data-form="0" data-to="99" data-speed="1800">
+                        <img src="images/counter (1).png"></span>
+                        <div class="overlay"></div>
+                        <div class="left"></div>
+                        <div class="right"></div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<?php include_once('components/user_footer.php'); ?>
+
+<!--sweetalert cdn link-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+<!--custom js file link-->
+<?php include('components/alert.php'); ?>
+
+<script type="text/javascript" src="js/user_script.js?v=<?php echo time(); ?>"></script>
+</body>
+</html>

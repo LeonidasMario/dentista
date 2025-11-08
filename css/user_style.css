@@ -143,6 +143,44 @@ input[type ='submit']:hover{
      margin: .5rem;
     }
 
+    .banner{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        background-image: url('../images/banner2.jpg');
+    }
+    .banner .detail{
+            padding-left: 4%;
+            line-height: 1.5;
+    }
+    .banner .detail p{
+        font-size: 1.1rem;
+        line-height: 1.8;
+
+    }
+    .banner .detail span{
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    .banner .detail span a{
+        color: #000;
+    }
+    .banner .detail span i{
+        margin: 0 1rem;
+    }
+    .banner .detail h1{
+        font-size: 3rem;
+        color:var(--main-color);
+        text-transform: capitalize;
+    }
+
+
+
+
     ::-webkit-scrollbar{
         width: 6px;
 
@@ -792,15 +830,108 @@ footer .bottom{
     color: #0e54ae;
     margin-right: .5rem;
 }
+/*conteinainer dentista sobre */
+.about{
+    padding: 0% 8%;
+    text-align: center;
+    
+}
+.about span{
+    color:var(--pink-color);
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.about h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: capitalize;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.about p{
+    line-height: 2;
+    color: #555;
+    font-size: 1.3rem;
+}
+.about img{
+    margin-bottom: -1rem;
+    width: 100%;
+}
+.event{
+    background-image: url('../images/event-bg.jpg');
+    background-size: cover;
+    padding: 6% 8%;
+}
+.event .heading h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.event .heading span{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+.event .heading p {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+}
+.event .box-container{
+    padding: 2rem 0;
+}
+.event .h2{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: var(--main-color);
+}
+.event p{
+    line-height: 2;
+    font-size: 1.1rem;
+}
+.event img{
+    width: 100%;
+}
+.role{
+    background-image: '../images/background-2.png';
+    background-size: cover;
+    background-position-y: 214.685px;
+    padding: 8%;
+    text-align: center;
+}
+.role h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--main-color);
+}
+.role p{
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.7;
+}
+.role .box-container,
+.role .box {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
 
 
 
-
-
-
-
-
-
+/*conteinainer dentista  tirar fundo*/
+.event .box-container,
+.event .box,
+.event .heading,
+.event .box img,
+.event .box h2,
+.event .box p {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
 
 
 /*conteinainer dentista */
