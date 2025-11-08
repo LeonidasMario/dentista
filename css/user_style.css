@@ -437,7 +437,7 @@ input[type ='submit']:hover{
 footer{
     background-image: url('../images/footer.jpg');
     background-size: cover;
-    padding: 300px 0 0;
+    padding: 50px 0 0;
     width: 100%;
 }
 footer img{
@@ -457,6 +457,9 @@ footer .content .box{
 footer .content .box .btn{
     text-align: center;
     padding: .5rem;
+    width: 100%;
+    line-height: 2;
+
 }
 footer .content .box h3{
     font-size: 1.5rem;
@@ -1171,3 +1174,57 @@ progress .overlay{
     box-shadow: none !important;
 }
 
+.contact{
+    background-image: url('../images/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 3rem;
+}
+.contact .box-container .box-image img{
+    width: 90%!important;
+    margin-bottom: -0rem;
+}
+.contact form{
+    backdrop-filter: none;
+    width: 90%;
+    margin: 1rem;
+    background-color: var(--white-alfa-40);
+    padding: 2rem;
+}
+.contactf form p{
+    text-align: left;
+    margin-left: 1.6rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.contact form span{
+    color: red;
+}
+.contact form input,
+.contact form textarea{
+        border-radius: 20px;
+        padding: 1rem;
+        border: none;
+        width: 100%;
+        margin: .6rem 0;
+}
+.contact form textarea{
+    height: 10rem;
+}
+
+.contact form .btn{
+    width: 100%;
+}
+.box-image {
+    background: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.box-image img {
+    width: 90%;
+    margin-bottom: -1rem;
+}
