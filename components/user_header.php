@@ -30,7 +30,7 @@
                 <h3 style="margin-bottom: 1rem;"><?= htmlspecialchars($fetch_profile['name']); ?></h3>
                 <div class="flex-btn">
                     <a href="profile.php" class="btn">Ver perfil</a>
-                    <a href="components/user_logout.php" onclick="return confirm('logout from this website');" class="btn">Logout</a>
+                    <a href="components/user_logout.php" onclick="return confirm('Sair do site');" class="btn">Sair</a>
                 </div>
             <?php
             } else {

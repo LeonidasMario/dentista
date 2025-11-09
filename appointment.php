@@ -40,8 +40,8 @@ if (isset($_COOKIE['user_id'])) {
          if($get_service->rowCount() > 0){
             while($fetch_s =  $get_service-> fetch(PDO::FETCH_ASSOC)){
                 $insert_appointment = $conn->prepare("INSERT INTO `appointments` (id, user_id,
-                name,number, email, service_id, employee_id,date, time,price,payment_status) VALUES(?,?,?,?,?,?,?,?,?,?,?)");
-                $insert_appointment->execute([$id,$user_id,$name,$number,$email,$fetch_s['id'], $employee,$date,$time,$fetch_s['price'], $payment]);
+                name,number, email, service_id, employee_id,date, time,price,payment_status,status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)");
+                $insert_appointment->execute([$id,$user_id,$name,$number,$email,$fetch_s['id'], $employee,$date,$time,$fetch_s['price'], $payment,'reservado']);
 
 
 
