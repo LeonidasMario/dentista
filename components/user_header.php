@@ -39,7 +39,7 @@
                 <h3 style="margin-bottom: 1rem;">Faça login ou se registre</h3>
                 <div class="flex-btn">
                     <a href="login.php" class="btn">Ver perfil</a>
-                    <a href="register" class="btn">Registrar</a>
+                    <a href="register.php" class="btn">Registrar</a>
                 </div>
             <?php } ?>
         </div>

@@ -204,19 +204,26 @@ input[type ='submit']:hover{
         margin-left: 10px;
     }
     .form-container form.form {
-  background-image: url('../images/form.jpg') !important;
-  background-position: center !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
+       background: rgba(255,255,255,0.85);
+        border-radius: 12px;    
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);
+         backdrop-filter: blur(10px);               /* efeito vidro/desfoque */
+        -webkit-backdrop-filter: blur(10px);       /* compatibilidade Safari */
+        border: 1px solid rgba(255,255,255,0.18);  /* borda sutil brilhante */
+              
 }
 
     .form-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        position: relative;
-        padding: 20px;
+        background-image: url('../images/bg.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* outros estilos necessários */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     
     .form-container.form {
@@ -1249,8 +1256,8 @@ progress .overlay{
     min-height: 320px;
 }
 .services .box-container .box {
-    width: 250px;         /* largura fixa para todos */
-    height: 250px;        /* altura fixa igual à largura: quadrado perfeito */
+    width: 250px;         
+    height: 250px;       
     background-color: var(--white-alfa-25);
     border-radius: .5rem;
     border: 3px solid var(--white-alfa-40);
@@ -1258,10 +1265,10 @@ progress .overlay{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* centraliza verticalmente */
-    margin: 0;              /* não precisa de margin-top por conta do gap */
+    justify-content: center; 
+    margin: 0;             
     text-align: center;
-    overflow: hidden;       /* evita que o conteúdo "estoure" o quadrado */
+    overflow: hidden;      
 }
 .services .box-container .box img{
     width: 80px;
@@ -1272,4 +1279,128 @@ progress .overlay{
     font-size: 25px;
     color:var(--main-color);
     margin: .5rem 0;
+}
+.show-container{
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 4% 0;
+}
+.show-container p{
+    margin: .5rem 0;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.show-container .box{
+    position: relative;
+    margin: 1rem;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+.show-container .box-container .box:hover .image{
+    transform: scale(1.1);
+}
+.show-container .box-container .box .contact{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4.7rem;
+    background-color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    transition: .5s;
+    padding-top: .3rem;
+}
+.show-container .box-container  .box:hover .contact{
+    height: 10rem;
+    padding-top: 1rem;
+}
+.show-container .box-container  .box .price{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    text-transform: capitalize;
+    color: red;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.show-container .box-container  .box .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.show-container .box-container  .box h3{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+.show-container .box-container .box .button a{
+    font-size: 1.7rem;
+    color:var(--main-color)
+}
+.view-container{
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 100px 6%;
+}
+.view-container .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2;
+    background-color: var(--white-alfa-40);
+    box-shadow: var(--box-shadow);
+}
+.view-container .box .img-box{
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+.view-container .box .detail{
+    padding: 1rem;
+    flex:1 1 40rem;
+}
+.view-container .box img{
+    width: 100%;
+}
+.view-container .box  .name{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.view-container .box .price{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--main-color);
+}
+.view-container .box .service-detail{
+    line-height: 1.7;
+    color: gray;
+}
+.view-container .info{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+
+}
+.view-container .info span{
+    color:rgb(25, 153, 208);
+}
+.view-container .sign{
+    width: 200px!important;
+}
+.flex-btn {
+    display: flex;
+    justify-content: center; /* Centralizado apenas dentro dela */
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem; /* opcional, para espaçar do conteúdo acima */
+}
+.flex-btn .btn {
+    width: auto;         /* Não ocupa a tela toda, só o necessário */
+    text-align: center;  /* Centraliza texto dentro do botão */
 }
