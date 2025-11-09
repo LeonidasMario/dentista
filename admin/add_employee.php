@@ -17,7 +17,7 @@ if (isset($_POST['add_employee'])) {
     $email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
     $profession = filter_var($_POST['profession'], FILTER_SANITIZE_STRING);
     $number = filter_var($_POST['number'], FILTER_SANITIZE_STRING);
-    $profile_dec = filter_var($_POST['profile_dec'], FILTER_SANITIZE_STRING);
+    $profile_desc = filter_var($_POST['profile_desc'], FILTER_SANITIZE_STRING);
 
     $image = $_FILES['image']['name'];
     $image = filter_var($image, FILTER_SANITIZE_STRING);
@@ -45,8 +45,8 @@ if (isset($_POST['add_employee'])) {
     if ($select_image->rowCount() > 0 && $image != '') {
         $warning_msg[] = 'O nome da imagem do funcionário já existe!';
     } else {
-        $insert_employee = $conn->prepare("INSERT INTO `employee` (id, name, profession, email, number, profile_dec, profile, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-        $insert_employee->execute([$id, $name, $profession, $email, $number, $profile_dec, $image, $status]);
+        $insert_employee = $conn->prepare("INSERT INTO `employee` (id, name, profession, email, number, profile_desc, profile, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+        $insert_employee->execute([$id, $name, $profession, $email, $number, $profile_desc, $image, $status]);
         $success_msg[] = 'Novo funcionário adicionado!';
     }
 }
@@ -58,7 +58,7 @@ if (isset($_POST['draft'])) {
     $email = filter_var($_POST['email'], FILTER_SANITIZE_STRING);
     $profession = filter_var($_POST['profession'], FILTER_SANITIZE_STRING);
     $number = filter_var($_POST['number'], FILTER_SANITIZE_STRING);
-    $profile_dec = filter_var($_POST['profile_dec'], FILTER_SANITIZE_STRING);
+    $profile_desc = filter_var($_POST['profile_desc'], FILTER_SANITIZE_STRING);
 
     $image = $_FILES['image']['name'];
     $image = filter_var($image, FILTER_SANITIZE_STRING);
@@ -86,8 +86,8 @@ if (isset($_POST['draft'])) {
     if ($select_image->rowCount() > 0 && $image != '') {
         $warning_msg[] = 'O nome da imagem do funcionário já existe!';
     } else {
-        $insert_employee = $conn->prepare("INSERT INTO `employee` (id, name, profession, email, number, profile_dec, profile, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-        $insert_employee->execute([$id, $name, $profession, $email, $number, $profile_dec, $image, $status]);
+        $insert_employee = $conn->prepare("INSERT INTO `employee` (id, name, profession, email, number, profile_desc, profile, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+        $insert_employee->execute([$id, $name, $profession, $email, $number, $profile_desc, $image, $status]);
         $success_msg[] = 'Rascunho de funcionário adicionado!';
     }
 }
@@ -137,7 +137,7 @@ if (isset($_POST['draft'])) {
                     </div>
                     <div class="input-field">
                         <p>descrição de perfil <span>*</span></p>
-                        <textarea name="profile_dec" placeholder="employee profile description" class="box-input"></textarea>
+                        <textarea name="profile_desc" placeholder="employee profile description" class="box-input"></textarea>
                     </div>
                     <div class="input-field">
                         <p>selecionar o perfil <span>*</span></p>

@@ -68,7 +68,8 @@
     text-align: center;
     font-weight: bold;
     line-height: 2;
-    margin: 2rem 0;
+    margin: 2rem auto;
+    width: 50rem;
 }
 .empty  p{
     font-size: 26px;
@@ -1179,6 +1180,64 @@ progress .overlay{
     background-color: transparent !important;
     border: none !important;
     box-shadow: none !important;
+}
+.employee-container .employee-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.employee-container .employee-box {
+    width: 240px;
+    min-height: 340px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 10px;
+    margin: 12px 0;
+    transition: box-shadow 0.15s;
+}
+
+.employee-container .employee-box:hover {
+    box-shadow: 0 7px 24px rgba(70,0,30,0.12);
+}
+
+.employee-container .employee-box .employee-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 0 12px 0;
+    background: #fafafa;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.employee-container .employee-box h3 {
+    font-size: 1.1rem;
+    color:  #141f3f;
+    margin: 0 0 6px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.employee-container .employee-box p {
+    font-size: 1rem;
+    color: #444;
+    margin: 0 0 6px 0;
+    text-align: center;
+}
+
+.employee-container .employee-box .flex-btn {
+    margin: 16px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.employee-container .employee-box .btn {
+    min-width: 120px;
 }
 
 .contact{

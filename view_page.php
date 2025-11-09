@@ -56,7 +56,7 @@ $pid = $_GET['pid'];
                 <div class="heading">
                     <h1><img src="images/separator.png">service details <img src="images/separator.png"></h1>
                 </div>
-                <img src="uploaded_files//services/<?= $fetch_service['image']; ?>" >
+                <img src="uploaded_files/services/<?= $fetch_service['image']; ?>" >
             </div>
             <div class="detail">
                 <p class="price">$<?= $fetch_service['price']; ?>/-</p>
