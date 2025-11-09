@@ -1359,6 +1359,9 @@ progress .overlay{
     box-shadow: var(--box-shadow);
     text-align: center;
 }
+.show-container .box-container{
+    grid-template-columns: repeat(auto-fit, 30rem)!important;
+}
 .show-container .box-container .box:hover .image{
     transform: scale(1.1);
 }
@@ -1832,3 +1835,85 @@ progress .overlay{
 .appointment-detail .container .box .grand-total span{
     color: red;
 }
+.profile{
+    padding: 5% 8%;
+    background-image: url('../images/bg.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.profile .details{
+    border-radius: .5rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    background-color: var(--white-alfa-25);
+    border: 3px solid var(--white-alfa-40);
+    backdrop-filter: var(--backdrop-filter);
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+
+.profile .details .user{
+        text-align: center;
+        margin-bottom: 2rem;
+}
+.profile .details .user img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    background-color: var(--main-color);
+}
+
+.profile .details h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: .5rem 0;
+}
+.profile .details .user p{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.profile .details.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+.profile .details .box-container .box{
+    box-shadow: var(--box-shadow);
+    background-color: var(--white-alfa-25);
+    border: 3px solid var(--white-alfa-40);
+    border-radius: .5rem;
+    padding: 1.5rem 2rem;
+    flex: 1 1  30;
+}
+.profile .details .box-container .box .flex{
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.profile .details .box-container .box .flex i{
+    height: 3rem;
+    width: 3rem;
+    border-radius: .5rem;
+    background-color: var(--pink-color);
+    line-height: 3.4rem;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+}
+.profile .details .box-container .box .flex h3{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin-bottom: .2rem;
+}
+
+
+
+
