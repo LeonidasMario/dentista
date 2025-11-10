@@ -30,9 +30,13 @@ if (isset($_COOKIE['user_id'])) {
 
 <div class="banner">
     <div class="detail">
-        <h1> agendadas</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate natus quidem, <br>cumque esse officiis quo eos doloremque debitis mollitia aliquam consequatur eaque?<br> Molestias, 
-            delectus enim minima recusandae laboriosam libero ipsa?</p>
+         <h1> consultas marcadas</h1>
+        <p>
+        Acompanhe suas consultas agendadas com nossa clínica!<br>
+        Aqui você encontra todas as informações sobre suas próximas visitas, horários e tipos de atendimento.<br>
+        Nossa equipe está pronta para atendê-lo com responsabilidade, pontualidade e dedicação.<br>
+        Em caso de dúvidas ou necessidade de alteração, entre em contato conosco.
+</p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt">Consultas agendadas</i></span>
     </div>
  </div>
@@ -40,7 +44,7 @@ if (isset($_COOKIE['user_id'])) {
 
       <div class="appointments">
         <div class="heading">
-            <h1>Consultas  agendadas</h1>
+            <h1>Consultas </h1>
         </div>
         <div class="box-container">
             <?php

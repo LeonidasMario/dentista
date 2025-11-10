@@ -27,8 +27,12 @@ if (isset($_COOKIE['user_id'])) {
  <div class="banner">
     <div class="detail">
         <h1>Sobre-nós</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate natus quidem, <br>cumque esse officiis quo eos doloremque debitis mollitia aliquam consequatur eaque?<br> Molestias, 
-            delectus enim minima recusandae laboriosam libero ipsa?</p>
+        <p>
+        Somos uma clínica dedicada ao bem-estar e à saúde bucal dos nossos pacientes.<br>
+        Nossa missão é oferecer atendimento humanizado, com profissionais qualificados e infraestrutura moderna.<br>
+        Atuamos com responsabilidade, ética e inovação, buscando sorrisos mais saudáveis todos os dias.<br>
+        Venha conhecer nossos serviços e fazer parte da família Uni-Sorriso!
+</p>    
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt">Sobre-nós</i></span>
     </div>
  </div>
@@ -48,7 +52,7 @@ if (isset($_COOKIE['user_id'])) {
  </div>
     <div class="event">
         <div class="heading">
-            <h1>O <span>Dentes & e controle de rotina</span> limpeza
+            <h1><span> Dentes &  Controle de rotina</span> 
             </h1><p>inovção de ideias o odontologia</p>
         </div>
         <div class="box-container">

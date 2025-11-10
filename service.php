@@ -33,8 +33,10 @@ if (isset($_COOKIE['user_id'])) {
 <div class="banner">
     <div class="detail">
         <h1>nossos serviços</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate natus quidem, <br>cumque esse officiis quo eos doloremque debitis mollitia aliquam consequatur eaque?<br> Molestias, 
-            delectus enim minima recusandae laboriosam libero ipsa?</p>
+        <p> Oferecemos uma variedade de tratamentos odontológicos para cuidar do seu sorriso.<br>
+        Nossa equipe está preparada para realizar desde procedimentos preventivos e estéticos até cirurgias especializadas.<br>
+        Prezamos pela qualidade, segurança e acolhimento em cada atendimento.<br>
+        Confira abaixo nossos principais serviços e agende uma consulta conosco!</p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt">nossos servicos</i></span>
     </div>
  </div>

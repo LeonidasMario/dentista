@@ -40,6 +40,6 @@
         </div>
     </div>
     <div class="bottom">
-        <p>copyright @ 2024 code with  unisorriso. ALL Right Reserved</p>
+        <p>copyright @ 2025 code with  unisorriso. ALL Right Reserved</p>
     </div>
 </footer>

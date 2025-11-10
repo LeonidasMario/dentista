@@ -64,8 +64,12 @@ if (isset($_COOKIE['user_id'])) {
 <div class="banner">
     <div class="detail">
         <h1>contate-nos</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate natus quidem, <br>cumque esse officiis quo eos doloremque debitis mollitia aliquam consequatur eaque?<br> Molestias, 
-            delectus enim minima recusandae laboriosam libero ipsa?</p>
+        <p>
+Fale conosco para agendar consultas, tirar dúvidas ou enviar sugestões!<br>
+Nossa equipe está à disposição para oferecer atendimento rápido e eficiente.<br>
+Utilize o formulário abaixo, ligue ou envie mensagem pelas nossas redes sociais.<br>
+Estamos sempre prontos para ouvir você e ajudar no que for preciso!
+</p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt">Sobre-nós</i></span>
     </div>
  </div>
@@ -109,25 +113,24 @@ if (isset($_COOKIE['user_id'])) {
         </div>
         <div class="services">
             <div class="heading">
-                <h1>Contate a clínica</h1>
-                <p>Para agendar uma consulta ou tirar dúvidas,
-                envie uma mensagem pelo formulário abaixo.</p>
+                <h1>Contate a clínica nos seguintes formatos</h1>
             </div>
             <div class="box-container">
                 <div class="box">
                     <img src="images/contact-icon (3).png">
                     <div>
                         <h4>número  de emrgência</h4>
-                        <p>990009999000000</p>
-                         <p>990009999000000</p>
+                        <p>192 (Ambulância)</p>
+                         <p>193 (Bombeiros)</p>
+                            <p>190 (Polícia)</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="images/contact-icon (1).png">
                     <div>
                         <h4>enderço</h4>
-                        <p>990009999000000</p>
-                         <p>990009999000000</p>
+                      <p>Rua das Flores, 123 - Centro, São Paulo-SP</p>
+                       <p>Av. Brasil, 456 - Jardim América, Rio de Janeiro-RJ</p>
                     </div>
                 </div>
                 <div class="box">

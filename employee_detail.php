@@ -30,8 +30,12 @@ if (isset($_COOKIE['user_id'])) {
 <div class="banner">
     <div class="detail">
         <h1>Detalhes do funcionário</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate natus quidem, <br>cumque esse officiis quo eos doloremque debitis mollitia aliquam consequatur eaque?<br> Molestias, 
-            delectus enim minima recusandae laboriosam libero ipsa?</p>
+        <p>
+Conheça melhor nossa equipe de profissionais!<br>
+Cada funcionário possui formação especializada e experiência para proporcionar o melhor atendimento.<br>
+Aqui você pode consultar informações sobre área de atuação, formação, contato e horários disponíveis.<br>
+A excelência no cuidado com nossos pacientes começa pelos nossos colaboradores.
+</p>
             <span><a href="home.php">home</a><i class="bx bx-right-arrow-alt">Sobre-nós</i></span>
     </div>
  </div>
@@ -40,7 +44,7 @@ if (isset($_COOKIE['user_id'])) {
        <div class="heading">
                 <h1>Contate a clínica</h1>
                 <p>Para agendar uma consulta ou tirar dúvidas,
-                envie uma mensagem pelo formulário abaixo.</p>
+                analise nossos profissionais.</p>
             </div>
             <?php
             if (isset($_GET['get_id'])){

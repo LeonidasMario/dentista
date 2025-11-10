@@ -246,56 +246,59 @@ if (isset($_COOKIE['user_id'])) {
                 <div><img src="images/contact-icon (4).png" ></div>
                 <div class="detail">
                     <h1>odontologia geral</h1>
-                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>Tratamento para restaurar dentes com cáries, devolvendo<br>
+                     funcionalidade e estética ao sorriso.</p>
                 </div>
             </div>
             <div class="box">
                 <div><img src="images/service-icon2.png" ></div>
                 <div class="detail">
                     <h1>enchimento de detal</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                     <p>Tratamento para restaurar dentes com cáries, devolvendo<br>
+                     funcionalidade e estética ao sorriso.</p>
                 </div>
             </div>
              <div class="box">
                 <div><img src="images/service-icon.png" ></div>
                 <div class="detail">
                     <h1>cirurgia dental</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                   <p>Procedimentos cirúrgicos para extração de dentes, remoção<br>
+                     de lesões ou colocação de implantes.</p>
                 </div>
             </div>
         <div class="box">
                 <div><img src="images/service-icon0.png" ></div>
                 <div class="detail">
                     <h1>alinhamento dental</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                   <p>Correção da posição dos dentes para melhorar o sorriso e a saúde bucal.</p>
                 </div>
             </div>
             <div class="box">
                 <div><img src="images/service-icon5.png" ></div>
                 <div class="detail">
                     <h1>branqueamento dental</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                     <p>Procedimento estético para clarear e remover manchas nos dentes.</p>
                 </div>
             </div>
             <div class="box">
                 <div><img src="images/service-icon1.png" ></div>
                 <div class="detail">
                     <h1>proteção dental</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>Uso de placas e dispositivos para proteger os dentes em atividades esportivas ou durante o sono.</p>
                 </div>
             </div>
             <div class="box">
                 <div><img src="images/service-icon4.png" ></div>
                 <div class="detail">
                     <h1>aparelho dental</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                   <p>Tratamento ortodôntico para alinhar os dentes e corrigir a mordida.</p>
                 </div>
             </div>
             <div class="box">
                 <div><img src="images/service-icon3.png" ></div>
                 <div class="detail">
                     <h1>prótese</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                   <p>Reposição de dentes perdidos com próteses fixas ou móveis para restaurar a função mastigatória.</p>
                 </div>
             </div>
         </div>

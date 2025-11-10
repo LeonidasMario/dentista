@@ -3,11 +3,11 @@
         <a href="home.php" class="logo"><img src="images/beng.png" width="150"></a>
         <nav class="navbar">
             <a href="home.php">home</a>
-            <a href="about.php">sobre</a>
             <a href="service.php">serviços</a>
-            <a href="team.php">nossa equipe</a>
-            <a href="book_appointment.php">depoimentos</a>
-            <a href="contact.php">contato</a>
+            <a href="contact.php">agendar</a>
+            <a href="book_appointment.php">agendamentos</a>
+             <a href="team.php">Profissionais</a>
+            <a href="about.php">sobre</a>
         </nav>
         <form action="search_service.php" method="post" class="search-form">
             <input type="text" name="search_service" placeholder="search_service..." required maxlength="100">
